@@ -1,0 +1,7 @@
+__pycache__
+*.txt
+*.jpg
+
+# White list
+!default.jpg
+!requirements.txt
