@@ -1,6 +1,7 @@
 __pycache__
 *.txt
 *.jpg
+environment.cfg
 
 # White list
 !default.jpg
