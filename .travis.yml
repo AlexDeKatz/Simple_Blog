@@ -1,6 +1,14 @@
 os:
   - linux
-
 dist: xenial
-
 language: python
+install:
+  - pip install -r requirements.txt
+script:
+  - flask run
+branches:
+  only:
+  - master
+git:
+  quiet: true
+  submodules: false
